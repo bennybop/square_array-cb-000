@@ -1,6 +1,3 @@
-def square_array(array)
-square_array =[]
-array.each  { |element| square_array << element ** 2 }
-square_array
 
-end
+numbers = [1,2,3]
+numbers.collect {|number| number ** 2 }
